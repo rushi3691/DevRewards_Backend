@@ -10,7 +10,6 @@ cache
 artifacts
 *.pem
 constants.js
-logs 
 package-lock.json
 
 

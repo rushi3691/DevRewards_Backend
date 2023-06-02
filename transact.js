@@ -11,7 +11,7 @@ if (!RPC_ENDPOINT) {
 
 const { Contract, ethers, Wallet } =require('ethers');
 
-const {CONTRACT_ADDRESS, CONTRACT_ABI} = require('./contract/constants');
+const {CONTRACT_ADDRESS, CONTRACT_ABI} = require('./constants');
 
 const provider = new ethers.providers.JsonRpcProvider(RPC_ENDPOINT);
 const signer = new Wallet(ACCOUNT_KEY, provider);
