@@ -12,5 +12,6 @@ artifacts
 constants.js
 package-lock.json
 
+.env*.local
 
 
