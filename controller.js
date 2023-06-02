@@ -128,9 +128,17 @@ async function getRepos(req, res) {
   // return res.json({ message: "got it" });
 }
 
+async function sendMail(req, res){
+  console.log(req.body);
+  return res.status(200).send("OK");
+}
+
 module.exports = {
   checkInstallation,
   getUser,
   getRepos,
+  sendMail,
   webhookMiddleware
 };
+
+
